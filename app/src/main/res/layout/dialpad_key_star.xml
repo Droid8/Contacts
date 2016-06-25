@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.android.phone.common.dialpad.DialpadKeyButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/star"
+    style="@style/DialpadKeyButtonStyle">
+    <LinearLayout
+        style="@style/DialpadKeyInternalLayoutStyle" >
+        <cn.android.phone.common.dialpad.DialpadTextView
+            android:id="@+id/dialpad_key_number"
+            style="@style/DialpadKeyStarStyle" />
+    </LinearLayout>
+</cn.android.phone.common.dialpad.DialpadKeyButton>

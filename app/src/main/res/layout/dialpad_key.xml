@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A layout representing a single key in the dialpad -->
+<cn.android.phone.common.dialpad.DialpadKeyButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DialpadKeyButtonStyle" >
+
+    <LinearLayout style="@style/DialpadKeyInternalLayoutStyle">
+
+        <!-- Note in the referenced styles that we assign hard widths to these components
+             because we want them to line up vertically when we arrange them in an MxN grid -->
+
+        <cn.android.phone.common.dialpad.DialpadTextView
+            android:id="@+id/dialpad_key_number"
+            style="@style/DialpadKeyNumberStyle" />
+
+        <TextView
+            android:id="@+id/dialpad_key_letters"
+            style="@style/DialpadKeyLettersStyle" />
+    </LinearLayout>
+</cn.android.phone.common.dialpad.DialpadKeyButton>
